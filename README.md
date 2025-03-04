@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Build
-        uses: TartanLlama/actions-eleventy@master
+        uses: alizardguy/actions-eleventy@master
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
