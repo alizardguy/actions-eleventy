@@ -18,7 +18,7 @@ jobs:
       - name: Build
         uses: alizardguy/actions-eleventy@master
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           publish_dir: _site 
           publish_branch: gh-pages
@@ -36,7 +36,7 @@ For example:
 
 ```yaml
 - name: Build
-  uses: TartanLlama/actions-eleventy@v1.3
+  uses: alizardguy/actions-eleventy@master
   with:
     args: --output _dist
     install_dependencies: true
